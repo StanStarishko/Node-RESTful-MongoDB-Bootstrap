@@ -2,12 +2,12 @@
 ---
 
 ## Resources:
-- [**Project Brief**](/docs/HA4D%2035%20Brief.pdf)  
-- [**Project Report**](/docs/HA4D%2035%20Project%20Report.pdf)  
+- [**Project Brief**](docs/HA4D%2035%20Brief.pdf)  
+- [**Project Report**](docs/HA4D%2035%20Project%20Report.pdf)  
 - **Source Code**:
-   - [**Backend**](/backend/)  
-   - [**Frontend**](/frontend/)  
-- [**Project Documentation**](/docs/)  
+   - [**Backend**](backend)  
+   - [**Frontend**](frontend)  
+- [**Project Documentation**](docs)  
 - [**Web Application**](https://cas-ha4d.netlify.app/)
 
 ---
