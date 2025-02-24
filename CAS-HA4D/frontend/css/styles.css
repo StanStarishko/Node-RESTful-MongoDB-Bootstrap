@@ -1,0 +1,8 @@
+/* 
+frontend/css/styles.css
+*/
+
+.table-responsive {
+    max-height: calc(100vh - 10rem);
+    overflow-y: auto;
+}

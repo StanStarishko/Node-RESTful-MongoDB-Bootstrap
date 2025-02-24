@@ -1,0 +1,71 @@
+{
+    "vehicle": {
+        "make": {
+            "Toyota": {
+                "model": [
+                    "Corolla",
+                    "Camry",
+                    "RAV4"
+                ]
+            },
+            "Volvo": {
+                "model": [
+                    "XC90",
+                    "S60",
+                    "V60"
+                ]
+            },
+            "BMW": {
+                "model": [
+                    "X5",
+                    "3 Series",
+                    "5 Series"
+                ]
+            },
+            "Ford": {
+                "model": [
+                    "Fiesta",
+                    "Focus",
+                    "Explorer"
+                ]
+            },
+            "KIA": {
+                "model": [
+                    "Rio",
+                    "Sorento",
+                    "Sportage"
+                ]
+            },
+            "Mercedes": {
+                "model": [
+                    "Vito",
+                    "SLK"
+                ]
+            }
+        },
+        "category": [
+            "Sedan",
+            "SUV",
+            "Truck",
+            "Minivan",
+            "Thermo Van"
+        ],
+        "fuel": [
+            "Petrol",
+            "Diesel",
+            "Gas",
+            "Electricity"
+        ]
+    },
+    "customer": {
+        "gender": [
+            "Male",
+            "Female",
+            "Non-binary",
+            "Transgender",
+            "Prefer not to say"
+        ]
+    },
+    "employee": {},
+    "booking": {}
+}

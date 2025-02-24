@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - Kittoch Car Hire</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/frontend/css/main.css">
+    <link rel="icon" href="/frontend/img/Favicon.png" type="image/x-icon">
+</head>
+<body class="bg-light">
+    <header class="header">
+        <div class="container d-flex justify-content-center align-items-center">
+            <img src="/frontend/img/Logo_Kittoch_Car_Hire.png" alt="Kittoch Car Hire Logo" class="logo">
+            <h1 class="site-title">Kittoch Car Hire</h1>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2 class="text-center mb-4" id="formTitle">New Record</h2>
+                <form id="universalForm">
+                    <div id="formFields">
+                        <!-- The fields will be added dynamically -->
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block" id="submitBtn">Save</button>
+                    <button type="button" id="backButton" class="btn btn-secondary btn-block mb-3">Back to Dashboard</button>
+                </form>
+                <div id="formMessage" class="mt-3 text-center"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer text-center mt-5">
+        <p>&copy; Dec 2024 - Jan 2025, Kittoch Car Hire by Stanislav Starishko</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="/frontend/scripts/utilities.js"></script>
+    <script type="module" src="/frontend/scripts/addPages.js"></script>
+</body>
+</html>

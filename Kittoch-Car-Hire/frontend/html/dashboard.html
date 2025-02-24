@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Kittoch Car Hire</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">    
+    <link rel="stylesheet" href="/frontend/css/main.css">
+    <link rel="icon" href="/frontend/img/Favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header bg-primary text-white py-3">
+        <div class="container d-flex justify-content-center align-items-center">
+            <img src="/frontend/img/Logo_Kittoch_Car_Hire.png" alt="Kittoch Car Hire Logo" class="logo">
+            <nav class="container d-flex justify-content-center align-items-center">
+                <ul class="nav">
+                    <li class="nav-item"><a href="#" class="nav-link active" id="tabBooking">Booking</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="tabVehicle">Vehicle</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="tabCustomer">Customer</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="tabEmployee">Employee</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <div id="content">
+            <div id="tabContentBooking">
+                <h2>Booking</h2>
+                <button class="btn btn-primary mb-3" id="addBooking">Add Booking</button>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="align-middle text-center">Booking Date</th>
+                            <th class="align-middle text-center">Customer</th>
+                            <th class="align-middle text-center">Car</th>
+                            <th class="align-middle text-center">Start Date</th>
+                            <th class="align-middle text-center">Pick Up Location</th>
+                            <th class="align-middle text-center">Return Date</th>
+                            <th class="align-middle text-center">Drop Off Location</th>
+                            <th class="align-middle text-center">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bookingTableBody"></tbody>
+                </table>
+            </div>
+
+            <div id="tabContentVehicle" class="d-none">
+                <h2>Vehicle</h2>
+                <button class="btn btn-primary mb-3" id="addVehicle">Add Vehicle</button>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="align-middle text-center">Car</th>
+                            <th class="align-middle text-center">Make</th>
+                            <th class="align-middle text-center">Model</th>
+                            <th class="align-middle text-center">Fuel</th>
+                            <th class="align-middle text-center">Cost Per Day</th>
+                            <th class="align-middle text-center">Availability</th>
+                            <th class="align-middle text-center">Availability Date<br>(for booking)</th>
+                            <th class="align-middle text-center">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="vehicleTableBody"></tbody>
+                </table>
+            </div>
+
+            <div id="tabContentCustomer" class="d-none">
+                <h2>Customer</h2>
+                <button class="btn btn-primary mb-3" id="addCustomer">Add Customer</button>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="align-middle text-center">Email</th>
+                            <th class="align-middle text-center">First Name</th>
+                            <th class="align-middle text-center">Second Name</th>
+                            <th class="align-middle text-center">Date of Birth</th>
+                            <th class="align-middle text-center">Gender</th>
+                            <th class="align-middle text-center">Phone</th>
+                            <th class="align-middle text-center">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="customerTableBody"></tbody>
+                </table>
+            </div>
+
+            <div id="tabContentEmployee" class="d-none">
+                <h2>Employee</h2>
+                <button class="btn btn-primary mb-3" id="addEmployee">Add Employee</button>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="align-middle text-center">Email</th>
+                            <th class="align-middle text-center">First Name</th>
+                            <th class="align-middle text-center">Second Name</th>
+                            <th class="align-middle text-center">Date of Birth</th>
+                            <th class="align-middle text-center">Gender</th>
+                            <th class="align-middle text-center">Phone</th>
+                            <th class="align-middle text-center">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="employeeTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer text-center mt-5">
+        <p>&copy; Dec 2024 - Jan 2025, Kittoch Car Hire by Stanislav Starishko</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="/frontend/scripts/utilities.js"></script>
+    <script type="module" src="/frontend/scripts/dashboard.js"></script>
+</body>
+</html>
