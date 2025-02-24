@@ -2,13 +2,13 @@
 ---
 
 ## Resources:
-- [**Project Brief**](/docs/Task%20brief.pdf)  
-- [**Project Report**](/docs/HA4G%2035%20Project%20Report.pdf)  
+- [**Project Brief**](docs/Task%20brief.pdf)  
+- [**Project Report**](docs/HA4G%2035%20Project%20Report.pdf)  
 - [**REST API Documentation**](https://documenter.getpostman.com/view/8437769/2sAYX9oM47)  
 - **Source Code**:
-   - [**Backend**](/backend/)  
-   - [**Frontend**](/frontend/)  
-- [**Project Documentation**](/docs/)  
+   - [**Backend**](backend)  
+   - [**Frontend**](frontend)  
+- [**Project Documentation**](docs)  
 - [**Web Application**](https://cas-ha4g.netlify.app/)
 
 ---
